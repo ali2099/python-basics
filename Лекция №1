@@ -1,0 +1,11 @@
+point_1 = (0, 2)
+point_2 = (2, 5)
+point_3 = (5, 2)
+point_4 = (6, 6)
+point_5 = (8, 3)
+a = ((point_2[0] - point_1[0]) ** 2 + (point_2[1] - point_1[1]) ** 2) ** 0.5
+b = ((point_3[0] - point_2[0]) ** 2 + (point_3[1] - point_2[1]) ** 2) ** 0.5
+c = ((point_4[0] - point_3[0]) ** 2 + (point_4[1] - point_3[1]) ** 2) ** 0.5
+d = ((point_5[0] - point_4[0]) ** 2 + (point_5[1] - point_4[1]) ** 2) ** 0.5
+print(sorted([a,b,c,d]),end='')
+print(' = ',a + b + c + d)
